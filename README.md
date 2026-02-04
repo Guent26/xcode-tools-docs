@@ -4,7 +4,7 @@ A comprehensive reference for the Xcode MCP Server aka Xcode Tools. These tools 
 
 ## Prerequisites
 
-- Xcode installed and running with an open workspace
+- Xcode 26.3+ installed and running with an open workspace
 - MCP server configured with Xcode integration
 
 > **Note:** Most tools require a `tabIdentifier` parameter that identifies which Xcode workspace tab to operate on.
@@ -17,13 +17,33 @@ A comprehensive reference for the Xcode MCP Server aka Xcode Tools. These tools 
 
 ## Table of Contents
 
-- **[Workspace](#workspace)** — [XcodeListWindows](#xcodelistwindows)
-- **[File Operations](#file-operations)** — [XcodeLS](#xcodels) · [XcodeGlob](#xcodeglob) · [XcodeGrep](#xcodegrep) · [XcodeRead](#xcoderead) · [XcodeWrite](#xcodewrite) · [XcodeUpdate](#xcodeupdate) · [XcodeMakeDir](#xcodemakedir) · [XcodeMV](#xcodemv) · [XcodeRM](#xcoderm)
-- **[Build & Run](#build--run)** — [BuildProject](#buildproject) · [GetBuildLog](#getbuildlog) · [ExecuteSnippet](#executesnippet)
-- **[Testing](#testing)** — [GetTestList](#gettestlist) · [RunAllTests](#runalltests) · [RunSomeTests](#runsometests)
-- **[Diagnostics](#diagnostics)** — [XcodeRefreshCodeIssuesInFile](#xcoderefreshcodeissuesinfile) · [XcodeListNavigatorIssues](#xcodelistnavigatorissues)
-- **[Preview](#preview)** — [RenderPreview](#renderpreview)
-- **[Documentation](#documentation)** — [DocumentationSearch](#documentationsearch)
+- **[Workspace](#workspace)**
+  - [XcodeListWindows](#xcodelistwindows)
+- **[File Operations](#file-operations)**
+  - [XcodeLS](#xcodels)
+  - [XcodeGlob](#xcodeglob)
+  - [XcodeGrep](#xcodegrep)
+  - [XcodeRead](#xcoderead)
+  - [XcodeWrite](#xcodewrite)
+  - [XcodeUpdate](#xcodeupdate)
+  - [XcodeMakeDir](#xcodemakedir)
+  - [XcodeMV](#xcodemv)
+  - [XcodeRM](#xcoderm)
+- **[Build & Run](#build--run)**
+  - [BuildProject](#buildproject)
+  - [GetBuildLog](#getbuildlog)
+  - [ExecuteSnippet](#executesnippet)
+- **[Testing](#testing)**
+  - [GetTestList](#gettestlist)
+  - [RunAllTests](#runalltests)
+  - [RunSomeTests](#runsometests)
+- **[Diagnostics](#diagnostics)**
+  - [XcodeRefreshCodeIssuesInFile](#xcoderefreshcodeissuesinfile)
+  - [XcodeListNavigatorIssues](#xcodelistnavigatorissues)
+- **[Preview](#preview)**
+  - [RenderPreview](#renderpreview)
+- **[Documentation](#documentation)**
+  - [DocumentationSearch](#documentationsearch)
 
 ---
 
