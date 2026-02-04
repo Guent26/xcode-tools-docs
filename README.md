@@ -15,30 +15,15 @@ A comprehensive reference for the Xcode MCP Server aka Xcode Tools. These tools 
 - [Writing code with intelligence in Xcode](https://developer.apple.com/documentation/xcode/writing-code-with-intelligence-in-xcode)
 - [Giving agentic coding tools access to Xcode](https://developer.apple.com/documentation/xcode/giving-agentic-coding-tools-access-to-xcode)
 
-## Quick Reference
+## Table of Contents
 
-| Tool | Description |
-|------|-------------|
-| **XcodeListWindows** | List open Xcode windows and their workspace info |
-| **XcodeLS** | List files/directories in the project navigator |
-| **XcodeGlob** | Find files matching wildcard patterns |
-| **XcodeGrep** | Search file contents with regex |
-| **XcodeRead** | Read file contents with line numbers |
-| **XcodeWrite** | Create or overwrite files in the project |
-| **XcodeUpdate** | Edit files by replacing text |
-| **XcodeMakeDir** | Create directories/groups in the project |
-| **XcodeMV** | Move, copy, or rename files |
-| **XcodeRM** | Remove files/directories from the project |
-| **BuildProject** | Build the Xcode project |
-| **GetBuildLog** | Retrieve build log entries filtered by severity |
-| **ExecuteSnippet** | Run a code snippet in the context of a source file |
-| **GetTestList** | List all available tests |
-| **RunAllTests** | Run all tests from the active test plan |
-| **RunSomeTests** | Run specific tests by identifier |
-| **XcodeRefreshCodeIssuesInFile** | Get compiler diagnostics for a file |
-| **XcodeListNavigatorIssues** | List issues from Xcode's Issue Navigator |
-| **RenderPreview** | Build and snapshot a SwiftUI preview |
-| **DocumentationSearch** | Search Apple Developer Documentation |
+- **[Workspace](#workspace)** — [XcodeListWindows](#xcodelistwindows)
+- **[File Operations](#file-operations)** — [XcodeLS](#xcodels) · [XcodeGlob](#xcodeglob) · [XcodeGrep](#xcodegrep) · [XcodeRead](#xcoderead) · [XcodeWrite](#xcodewrite) · [XcodeUpdate](#xcodeupdate) · [XcodeMakeDir](#xcodemakedir) · [XcodeMV](#xcodemv) · [XcodeRM](#xcoderm)
+- **[Build & Run](#build--run)** — [BuildProject](#buildproject) · [GetBuildLog](#getbuildlog) · [ExecuteSnippet](#executesnippet)
+- **[Testing](#testing)** — [GetTestList](#gettestlist) · [RunAllTests](#runalltests) · [RunSomeTests](#runsometests)
+- **[Diagnostics](#diagnostics)** — [XcodeRefreshCodeIssuesInFile](#xcoderefreshcodeissuesinfile) · [XcodeListNavigatorIssues](#xcodelistnavigatorissues)
+- **[Preview](#preview)** — [RenderPreview](#renderpreview)
+- **[Documentation](#documentation)** — [DocumentationSearch](#documentationsearch)
 
 ---
 
